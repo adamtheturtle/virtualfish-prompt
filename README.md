@@ -4,4 +4,4 @@ Display the current `virtualenv` name before your existing Fish prompt, as per h
 
 Install with [Fisherman](http://fisherman.sh):
 
-  fisher install adamtheturtle/virtualfish-prompt
+   fisher install adamtheturtle/virtualfish-prompt
