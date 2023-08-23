@@ -7,3 +7,13 @@ Install with [Fisherman](http://fisherman.sh):
    ```
    fisher install adamtheturtle/virtualfish-prompt
    ```
+
+Add the following to `~/.config/fish/config.fish`:
+
+```
+functions --copy fish_prompt default_fish_prompt
+function fish_prompt
+    virtualfish_prompt
+    default_fish_prompt
+end
+```
